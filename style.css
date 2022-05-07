@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: rgb(218, 179, 60);
+    background-image: url('./images/KyloRenM.jpg');
 }
 
 .header{
