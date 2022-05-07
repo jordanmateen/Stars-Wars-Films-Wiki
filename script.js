@@ -15,7 +15,6 @@ window.addEventListener('DOMContentLoaded', async ()=>{
 
 const renderFilms = (filmsArray)=>{
     return filmsArray.map((film)=>{
-        console.log(film.title)
         const characters = film.characters;
         return `<div onclick="renderCharacters('${characters}');" class="film-title">${film.title}</div>`
     }).join('')
